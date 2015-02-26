@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    tools:context=".MainActivity" >
+    
+    <com.mca.chainreaction.GLView
+        android:id="@+id/glview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+    
+    <TextView
+        android:id="@+id/score_label"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:textColor="@color/white"
+        android:text="@string/settings_title"
+        android:textSize="24sp"
+		android:gravity="bottom"
+        />
+
+</RelativeLayout>

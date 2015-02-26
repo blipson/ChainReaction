@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent"
+		android:background="@color/background"
+		android:gravity="top"
+		android:paddingTop="100dip"
+		android:padding="40dip">
+		
+
+
+        <TextView
+			android:id="@+id/numballs"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="25dip"
+			android:gravity="center"
+			android:textSize="40sp"
+			android:text="@string/custom_game_label" />
+
+        <EditText
+            android:id="@+id/editText1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="@string/def_num"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+
+		<TextView
+			android:id="@+id/speedballs"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="25dip"
+			android:textSize="12sp"
+			android:text="@string/Numballs" />
+
+		<EditText
+		    android:id="@+id/editText2"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:text="@string/def_speed"
+		    android:numeric="integer|decimal" />
+        
+		<TextView
+			android:id="@+id/sizeballs"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="25dip"
+			android:textSize="12sp"
+			android:text="@string/Speedballs" />
+
+		<EditText
+		    android:id="@+id/editText3"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:text="@string/def_size"
+		    android:numeric="integer|decimal" />
+		<TextView
+			android:id="@+id/sizeballsE"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="25dip"
+			android:textSize="12sp"
+			android:text="@string/Sizeballs" />
+
+		<EditText
+		    android:id="@+id/editText4"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:ems="10"
+		    android:text="@string/def_sizeE"
+		    android:numeric="integer|decimal" />
+		<TextView
+			android:id="@+id/sizeballsE"
+			android:layout_height="wrap_content"
+			android:layout_width="wrap_content"
+			android:layout_marginBottom="25dip"
+			android:textSize="12sp"
+			android:text="@string/SizeballsE" />
+	    <Button
+			android:id="@+id/new_button"
+			android:layout_width="fill_parent"
+			android:layout_height="wrap_content"
+			android:text="@string/newC_game_label" />
+        
+	
+			 </LinearLayout>

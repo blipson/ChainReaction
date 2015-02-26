@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Collisions</string>
+    <string name="menu_settings">Settings</string>
+    
+	<string name="main_title">Collisions</string>
+	<string name="continue_label">High Scores!</string>
+	<string name="new_game_label">New Game</string>
+	<string name="about_label">Instructions</string>
+	<string name="exit_label">Exit</string>
+	<string name="custom_game_label">Custom Game</string>
+	<string name="share_label">Share Your Score</string>
+	
+	<string name="newC_game_label">Start Game</string>
+	<string name="NumberBalls">Number Of Balls</string>
+	
+	<string name="about_title">Instructions for Collisions</string>
+	<string name="about_text">
+	Thanks for playing Collisions! When you start a new game, youll see a bunch of 3D spheres bouncing around the screen. When you tap the screen
+	with your finger(s) it will create a sphere where you tap that will expand and collide with any sphere that hits it. All spheres that hit it
+	will also expand and gain the ability to be collided by more spheres. This should cause a chain reaction that pops spheres. The goal is to
+	pop as many spheres as possible with as few clicks as possible. Each sphere popped will add 1 point to your score and each tap will subtract 5
+	from your score, so choose where you tap wisely! This single player game implements 2 different game modes: custom and normal. In custom you get to set your own
+	values for the game, and in normal there are three different difficulties (Easy, Medium, and Hard). Good luck!
+	</string>
+	
+	<string name="custom_how_text">Use the sliders below to make your own custom Collision experience!</string>
+	
+	<string name="settings_label">Settings</string>
+	<string name="settings_title">Game settings</string>
+	<string name="settings_shortcut">s</string>
+	<string name="music_title">Music</string>
+	<string name="music_summary">Play background music</string>
+	<string name="hints_title">Graphics</string>
+	<string name="hints_summary">Adjust graphics(for performance reasons)</string>
+	
+	<string name="new_game_title">Difficulty</string>
+	<string name="easy_label">Easy</string>
+	<string name="medium_label">Medium</string>
+	<string name="hard_label">Hard</string>
+	
+	<string name="def_num">100</string>
+	<string name="def_size">2</string>
+	<string name="def_speed">50</string>
+	<string name="def_sizeE">10</string>
+	
+	<string name="ChooseDif">Choose Difficulty</string>
+
+	<string name="Numballs">Number of Balls</string>
+	<string name="Speedballs">Speed of the Balls</string>
+	<string name="Sizeballs">Size of the Balls</string>
+	<string name="SizeballsE">Size of the Balls Explosion</string>
+	
+</resources>
